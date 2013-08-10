@@ -1,33 +1,21 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    09:30:59 02/20/2013 
--- Design Name: 
--- Module Name:    des - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
-----------------------------------------------------------------------------------
+
+-- Copyright (c) 2013 Antonio de la Piedra
+ 
+-- This program is free software: you can redistribute it and/or modify
+-- it under the terms of the GNU General Public License as published by
+-- the Free Software Foundation, either version 3 of the License, or
+-- (at your option) any later version.
+  
+-- This program is distributed in the hope that it will be useful,
+-- but WITHOUT ANY WARRANTY; without even the implied warranty of
+-- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+-- GNU General Public License for more details.
+   
+-- You should have received a copy of the GNU General Public License
+-- along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity des_loop is
 	port(clk :  in std_logic;
@@ -127,23 +115,6 @@ begin
 			rst_s <= rst;
 		end if;
 	end process;
-
---	k_0_s <= "101000001001001011000010000010101011000101000000";
---	k_1_s <= "101000000001001001010010010011000000000010101011";
---	k_2_s <= "001001000101101001010000000001100101100001001001";
---	k_3_s <= "000001100111000101010000000000101001000101110000";
---	k_4_s	<= "000011100100010101010001100000011000110100100000";
---	k_5_s <= "010011110100000100001001010010000000111000010000";
---	k_6_s <= "000010111000000110001001010110010100000000011100";
---	k_7_s <= "000110010000100010001011000000010101000010001000";
---	k_8_s <= "000110010000101010001000000110000010111010010000";
---	k_9_s <= "000100000011100010001100001110010100000000010001";
---	k_10_s <= "000100000010110001000100000000110110000000000010";
---	k_11_s <= "010000000110110000100100101001000010000100000100";
---	k_12_s <= "110000001010010100100100101000000000001011000110";
---	k_13_s <= "110000001000011000100011010101001000001010000011";
---	k_14_s <= "111000011001001000100010000101100000010001001001";
---	k_15_s <= "101000001001001000101010011000000001010010000110";
 	
 	-- IP
 
